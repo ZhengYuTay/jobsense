@@ -1,0 +1,34 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:jest/recommended"
+	],
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaVersion": 2017,
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true,
+			"jsx": true
+		},
+		"sourceType": "module"
+	},
+	"plugins": ["react", "import", "prettier", "jest"],
+	"rules": {
+		"strict": 0,
+		"linebreak-style": ["error", "windows"],
+		"quotes": ["error", "single"],
+		"semi": ["error", "always"],
+		"no-process-env": 0,
+		"global-require": 0,
+		"no-restricted-modules": 0,
+		"prettier/prettier": "error",
+		"no-console": "off"
+	}
+}

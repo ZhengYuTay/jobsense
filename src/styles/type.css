@@ -1,0 +1,23 @@
+:root {
+  /*
+    Font sizes
+    */
+  --smaller-text: 1rem;
+  --small-text: 1.2rem;
+  --regular-text: 1.4rem;
+  --larger-text: 1.6rem;
+  --small-sub-heading-text: 1.8rem;
+  --sub-heading-text: 2rem;
+  --heading-text: 2.4rem;
+  --large-heading-text: 2.8rem;
+  --larger-heading-text: 3.2rem;
+  --largest-heading-text: 3.6rem;
+  --super-large-heading-text: 3.9rem;
+  --hyper-large-heading-text: 4.2rem;
+
+  /*
+    Font weights
+    */
+  --bold: 600;
+  --normal: 400;
+}

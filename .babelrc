@@ -1,0 +1,19 @@
+{
+  "presets": [["env", { "modules": false }], "react", "stage-2"],
+  "plugins": [
+    [
+      "universal-import",
+      {
+        "babelServer": false
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": ["react-hot-loader/babel"]
+    },
+    "test": {
+      "presets": [["env"], "react"]
+    }
+  }
+}
